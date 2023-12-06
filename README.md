@@ -22,6 +22,9 @@
 Prefix IP B24: 192.190.x.x
 
 ### VLSM (CPT)
+Pada cara VLSM, kami menyesuaikan IP dan subnet mask sesuai tabel dengan IP yang dapat digunakan. Berikut tabel subnet mask
+[resource/list-netmask.png](https://github.com/gilangalief05/Jarkom-Modul-4-B24-2023/blob/9f90a86f7b24223592f638701aea46872ea6d39b/resource/list-netmask.png)
+
 #### Menambahkan rute
 - Tabel rute
   | Nama subnet | Rute                                     | Jumlah IP | Netmask |
@@ -49,7 +52,8 @@ Prefix IP B24: 192.190.x.x
   | A21 | Heiter-Switch8-Sein-Switch8-RiegelCanyon | 512 | /22 |
 
 - Tree VLSM
-  [gambar tree vlsm]
+  [[gambar tree vlsm]](https://github.com/gilangalief05/Jarkom-Modul-4-B24-2023/blob/9f90a86f7b24223592f638701aea46872ea6d39b/resource/B24-tree-VLSM.png)
+  [[resource/B24-CPT-VLSM.png]](https://github.com/gilangalief05/Jarkom-Modul-4-B24-2023/blob/9f90a86f7b24223592f638701aea46872ea6d39b/resource/B24-CPT-VLSM.png)
 
 - Pembagian IP (VLSM)
   | Nama subnet | Network ID         | Netmask            | Netmask            |
